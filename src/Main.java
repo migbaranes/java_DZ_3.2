@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
 
-        int myBmi = service.calculate(83, 1.8);
+        int myBodyMassIndex = service.calculate(83, 1.8);
         // weight - кг,
         // height - метр.
-        System.out.println(myBmi);
+        System.out.println("Мой индекс массы тела составляет: " + myBodyMassIndex + " кг/кв.м");
     }
 }
